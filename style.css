@@ -1,0 +1,33 @@
+/* navbar */
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+.nav-item {
+  padding-left: 2rem;
+}
+.nav-link:hover {
+  color: #4981b3 !important;
+}
+
+
+/* section  1 */
+.carousel-caption {
+  background-color: rgba(67, 88, 17, 0.5);
+  color: rgb(0, 217, 255);
+}
+
+
+/* section 2 header */
+.b-under {
+  border-bottom: 3px solid yellowgreen;
+}
+
+
+/* footer section */
+i,
+h5,
+.fsc p {
+  padding: 10px;
+}
+
+
