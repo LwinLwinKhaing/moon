@@ -1,13 +1,30 @@
+body {
+  background-color: whitesmoke;
+}
+
+.navbar-brand, ul li a{
+   color:#381005;
+}
+
 /* navbar */
 .navbar-nav .nav-link {
   font-weight: 500;
 }
+
 .nav-item {
   padding-left: 2rem;
 }
 .nav-link:hover {
   color: #4981b3 !important;
 }
+
+.navbar {
+  background-color: #b9e5e8;
+  
+}
+
+
+
 
 
 /* section  1 */
@@ -16,12 +33,10 @@
   color: rgb(0, 217, 255);
 }
 
-
 /* section 2 header */
 .b-under {
   border-bottom: 3px solid yellowgreen;
 }
-
 
 /* footer section */
 i,
@@ -30,4 +45,32 @@ h5,
   padding: 10px;
 }
 
+/* end */
+.end p {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 20px 10px;
+}
 
+/* trainer  */
+
+
+
+
+
+
+/* program */
+.head {
+  border: 2px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+}
+
+/* footer */
+footer{
+  color: #051d38;
+}
