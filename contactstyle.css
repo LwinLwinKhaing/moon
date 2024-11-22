@@ -1,7 +1,75 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* background-color: #121212; */
+  color: #fff;
+}
+
+/* Header Section */
+/* header {
+    background: #343a40;
+  }
+   */
+/* Form Styling */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+.form-label {
+  color: black;
+}
+
+.form-control {
+  /* background-color: #1f1f1f; */
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form-control:focus {
+  border-color: #00bcd4;
+  box-shadow: 0 0 5px #00bcd4;
+}
+
+/* Footer Styling */
+footer {
+  /* background: #2c2c2c; */
+  color: #ccc;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+.btn {
+  background-color: #00d1b2; /* Teal */
+}
+
+/* style.css */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  
 }
 
 /* navbar */
@@ -26,8 +94,6 @@ nav {
   color: #9a49b3 !important;
 }
 
-
-
 /* all btn */
 .btn {
   background-color: #906041;
@@ -36,9 +102,9 @@ nav {
 /* slider */
 .carousel-caption {
   font-size: 1.5em;
-  color: #432D1E;
+  color: #906041;
   /* background-color: rgba(67, 88, 17, 0.5);
-  color: rgb(0, 217, 255); */
+    color: rgb(0, 217, 255); */
 }
 
 /* footer section */
@@ -86,7 +152,6 @@ header {
   background-color: #ffffff; /* White card background */
   border: 1px solid #dee2e6; /* Light border */
   transition: transform 0.3s, box-shadow 0.3s;
-  
 }
 .card:hover {
   transform: scale(1.05);
