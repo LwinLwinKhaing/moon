@@ -1,16 +1,17 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1c1c1e; /* Dark charcoal */
-    color: #e0e0e0; /* Light gray */
+    background-color: #AC8968; /* Dark charcoal */
+    color: #423A30; /* Light gray */
     margin: 0;
+   
   }
   
   /* Sidebar */
   .sidebar {
     height: 100vh;
     background: linear-gradient(135deg, #282c34, #3a3f47); /* Dark gray gradient */
-    color: white;
+   
   }
   /* Title for Admin Dashboard */
   .navbar h4 {
@@ -44,7 +45,7 @@ body {
   
   /* Navbar */
   .navbar {
-    background-color: #282c34; /* Dark gray */
+    background-color: ##AC8968; /* Dark gray */
     color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   }
